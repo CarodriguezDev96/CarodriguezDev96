@@ -1,13 +1,13 @@
 <h1 align="center">Carlos Arturo Rodríguez Ortega</h1>
-<h3 align="center">Senior Backend Developer · PHP & Laravel · Technical Lead</h3>
+<h3 align="center">Senior Backend Developer · PHP & Laravel · Node.js · Technical Lead</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=6EE7B7&center=true&vCenter=true&width=600&lines=Hexagonal+Architecture+%7C+DDD+%7C+SOLID;APIs+REST+%7C+Microservices+%7C+AWS;5%2B+years+building+fintech+%26+fiduciary+platforms;Technical+Lead+%7C+Mentoring+%7C+Code+Quality" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=6EE7B7&center=true&vCenter=true&width=600&lines=Hexagonal+Architecture+%7C+DDD+%7C+SOLID;APIs+REST+%7C+Microservices+%7C+AWS;PHP+%26+Laravel+%7C+Node.js+%26+TypeScript;Casi+5+a%C3%B1os+en+plataformas+fintech+%26+fiduciarias;Technical+Lead+%7C+Mentoring+%7C+Code+Quality" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <a href="mailto:carodriguez.ort@gmail.com"><img src="https://img.shields.io/badge/Email-carodriguez.ort%40gmail.com-0ea5e9?style=flat-square&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/carlos-arturorodriguez-a2285a1b9"><img src="https://img.shields.io/badge/LinkedIn-Carlos%20Rodríguez-0077b5?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/carlos-arturo-rodriguez-a2285a1b9"><img src="https://img.shields.io/badge/LinkedIn-Carlos%20Rodríguez-0077b5?style=flat-square&logo=linkedin&logoColor=white"/></a>
   <img src="https://img.shields.io/badge/Ubicación-Pereira%2C%20Colombia-10b981?style=flat-square&logo=googlemaps&logoColor=white"/>
   <img src="https://img.shields.io/badge/Disponibilidad-100%25%20Remoto-7c3aed?style=flat-square"/>
 </p>
@@ -16,19 +16,23 @@
 
 ## 🧑‍💻 Sobre mí
 
-Soy un **Senior Backend Developer** con más de **5 años de experiencia** diseñando y escalando plataformas financieras, fiduciarias y tributarias con PHP y Laravel.
+Soy un **Senior Backend Developer** con casi **5 años de experiencia** diseñando y escalando plataformas financieras, fiduciarias y tributarias con **PHP y Laravel** como stack principal y **Node.js + TypeScript** como stack secundario.
 
 Me especializo en construir sistemas que no solo funcionan, sino que **resisten el tiempo**: arquitecturas limpias, código mantenible, APIs predecibles y equipos técnicamente sólidos. He liderado células de desarrollo en proyectos críticos de negocio, definiendo estándares de calidad, seguridad y testing para ecosistemas de microservicios.
+
+Además de mi trabajo profesional, construyo y despliego mis propios productos full stack para llevar las mismas prácticas a proyectos de principio a fin.
 
 ```php
 <?php
 
 class CarlosRodriguez extends Developer
 {
-    public string $role     = 'Senior Backend Developer | Technical Lead';
-    public string $location = 'Pereira, Colombia 🇨🇴';
-    public array  $focus    = ['Fintech', 'Fiduciary Systems', 'Clean Architecture'];
-    public bool   $openTo   = true; // open to remote opportunities
+    public string $role      = 'Senior Backend Developer | Technical Lead';
+    public string $location  = 'Pereira, Colombia 🇨🇴';
+    public array  $primary   = ['PHP', 'Laravel', 'PostgreSQL', 'Redis'];
+    public array  $secondary = ['Node.js', 'TypeScript', 'Express', 'Prisma'];
+    public array  $focus     = ['Fintech', 'Fiduciary Systems', 'Clean Architecture'];
+    public bool   $openTo    = true; // open to remote opportunities
 
     public function philosophy(): string
     {
@@ -42,27 +46,38 @@ class CarlosRodriguez extends Developer
 
 ## 🛠️ Stack Tecnológico
 
-### Backend
+### Backend (principal)
 ![PHP](https://img.shields.io/badge/PHP_8%2B-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_APIs-0ea5e9?style=flat-square)
 ![Microservices](https://img.shields.io/badge/Microservices-6366f1?style=flat-square)
+
+### Backend (secundario)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 
 ### Arquitectura
 ![Hexagonal](https://img.shields.io/badge/Hexagonal_Architecture-10b981?style=flat-square)
 ![DDD](https://img.shields.io/badge/DDD-0f766e?style=flat-square)
 ![SOLID](https://img.shields.io/badge/SOLID-7c3aed?style=flat-square)
 ![Clean Code](https://img.shields.io/badge/Clean_Code-f59e0b?style=flat-square)
+![Multi-Tenant](https://img.shields.io/badge/Multi--Tenant-0ea5e9?style=flat-square)
 
 ### Bases de Datos
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 ### Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS_S3-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00E599?style=flat-square&logoColor=black)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
@@ -72,9 +87,32 @@ class CarlosRodriguez extends Developer
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-0ea5e9?style=flat-square)
 
 ### Frontend (apoyo)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+
+---
+
+## 🚀 Proyectos independientes
+
+Dos aplicaciones full stack que diseñé, construí y desplegué por mi cuenta.
+
+### 🛒 FlowCommerce — Plataforma multi-tenant para un negocio de licores
+**Laravel 13 · PHP 8.3 · React · PostgreSQL · Redis · Docker** · [Ver en vivo](https://flowcommerce-psi.vercel.app/shop)
+
+- Arquitectura modular con separación por dominios (dominio, servicios de aplicación, infraestructura y presentación)
+- Multi-tenant con entornos de negocio independientes
+- Autenticación y autorización con **Laravel Sanctum** y **Spatie Permissions** (RBAC a nivel de tenant)
+- Redis para caché y procesamiento asíncrono, entorno con Docker y documentación con **ADRs**
+- Desplegado con Neon (PostgreSQL), Render (backend y Redis) y Vercel (frontend)
+
+### 🎟️ TicketFlow — Plataforma de gestión de entradas y eventos
+**Node.js · Express · TypeScript · React · PostgreSQL · Prisma · Redis · JWT · CI/CD** · [Ver en vivo](https://ticketflow-three-green.vercel.app/)
+
+- API REST en Node.js con Express y TypeScript, con autenticación JWT
+- Creación de eventos y gestión de entradas, con PostgreSQL y Prisma
+- Pipeline de CI/CD y despliegue en Neon, Render y Vercel
+- 🔧 *En desarrollo activo*
 
 ---
 
@@ -86,8 +124,10 @@ class CarlosRodriguez extends Developer
 - Lideré **3 células técnicas** (Presupuesto, Conciliación Bancaria, Portal de Pagos) definiendo arquitectura y estándares de calidad
 - Diseñé APIs REST escalables bajo **Arquitectura Hexagonal + SOLID** para módulos contables y tributarios de alta complejidad
 - Implementé procesamiento masivo con **Jobs, Queues y procesos asíncronos** para automatizar flujos financieros críticos
+- Optimicé **PostgreSQL** con índices y consultas complejas para reportes sobre grandes volúmenes de datos
 - Generé reportes financieros avanzados en PDF/Excel e integré almacenamiento documental con **AWS S3**
 - Establecí estándares de **testing automatizado, seguridad y code review** para múltiples equipos en ecosistema de microservicios
+- Brindé mentoría técnica a desarrolladores junior y semi-senior
 
 ### 💳 ONOFF SOLUCIONES EN LÍNEA — Backend Developer
 `Septiembre 2021 – Mayo 2025` · **Fintech de productos financieros digitales**
@@ -95,6 +135,7 @@ class CarlosRodriguez extends Developer
 - Construí y mantuve **APIs REST** para procesos financieros con integración a servicios internos y externos
 - Optimicé consultas y estructuras de **bases de datos MySQL** mejorando rendimiento y escalabilidad
 - Desarrollé con **Laravel, Angular, Vue.js y React** para entrega continua de funcionalidades financieras
+- Participé en la migración de aplicaciones Angular y Vue a versiones actuales de cada framework
 
 ---
 
@@ -122,7 +163,7 @@ class CarlosRodriguez extends Developer
   <a href="mailto:carodriguez.ort@gmail.com">
     <img src="https://img.shields.io/badge/Enviar%20Email-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://linkedin.com/in/carlos-arturorodriguez-a2285a1b9">
+  <a href="https://linkedin.com/in/carlos-arturo-rodriguez-a2285a1b9">
     <img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </p>
